@@ -1,0 +1,38 @@
+[
+    {    "id":1,
+         "title":"HTML",
+         "imageSrc":"./skills/HTML.png"
+    },
+
+    {  "id":2,
+     "title":"CSS",
+         "imageSrc":"./skills/css.png"
+    },
+    { "id":3, 
+     "title":"JS",
+         "imageSrc":"./skills/JavaScript.png"
+
+    },
+    {    "id":4,
+        "title":"React.js",
+         "imageSrc":"./skills/React.svg"
+    },
+    {    "id":5,
+        "title":"MongoDB",
+         "imageSrc":"./skills/mongoDB.png"
+    },
+    {     "id":6,
+        "title":"Java",
+         "imageSrc":"./skills/Java.png"
+    },
+    {    "id":7,
+        "title":"Hibernate",
+         "imageSrc":"./skills/Hibernate.png"
+    },
+    {     "id":8,
+        "title":"SpringBoot",
+         "imageSrc":"./skills/Spring.png"
+    }
+    
+
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "key":1,
+        "title":"E-commerce Website",
+        "imageSrc":"project/ecommerce.webp",
+        "description":"The E-commerce Website project aims to develop a user-friendly online shopping platform. Key features include product listings, shopping cart functionality, secure payment processing, user accounts, and order tracking. Built with technologies like React for the frontend and Node.js for the backend, the site enhances customer experience and streamlines transactions.",
+        "demo":"https://example.com/",
+        "source":"https://github.com/vivekgupta-tech"
+    },
+    {
+        "key":2,
+        "title":"Chat-App",
+        "imageSrc":"project/chatapp.jpg",
+        "description":"The Chat Application project aims to create a real-time messaging platform allowing users to communicate seamlessly. Key features include one-on-one and group chats, message notifications, file sharing, and user profiles. Built using technologies like WebSocket for real-time communication and React for the frontend, it enhances user connectivity and engagement.",
+        "demo":"https://example.com/",
+        "source":"https://github.com/vivekgupta-tech"
+    },
+    {
+        "key":3,
+        "title":"AI-virtual Assistant",
+        "imageSrc":"project/ai.jpg",
+        "description":"The AI Virtual Assistant project aims to create a conversational agent using natural language processing (NLP). It features task management, information retrieval, and personalized recommendations, accessible via text or voice. Built with technologies like TensorFlow and React, it enhances productivity and streamlines daily tasks for users.The AI Virtual Assistant is an intelligent software agent designed to assist users with a variety of tasks through natural language processing (NLP). It can manage schedules, answer queries, provide personalized recommendations, and automate routine activities. Accessible via text and voice interfaces, this assistant integrates seamlessly with third-party applications to enhance productivity. Utilizing advanced machine learning algorithms, it learns user preferences over time, improving its responses and suggestions. nce, making it an invaluable tool for individuals and businesses alike.",
+        "demo":"https://example.com/",
+        "source":"https://github.com/vivekgupta-tech"
+    }
+
+]

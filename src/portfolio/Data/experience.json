@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "role":"Software developer - Intern",
+        "organization":"MangoOrange Group",
+        "startDate":"21th Sept 2024 - ",
+        "endDate":"Present",
+        "location":"Noida,India",
+        "experience":[
+           " Developed front-end components with HTML,CSS,JavaScript and ReactJs to create user interface.",
+            "Integrated RESTful APIs to enable dynamic data fetching and enhance application functionality."
+            
+        ],
+        "imageSrc":"company/MangoOrange.png"
+    },
+    {
+      "id":2,
+        "role":"Java FullStack Developer - Trainee",
+        "organization":"Ducat India",
+        "startDate":" 11th Nov 2023 - ",
+        "endDate":"present",
+        "location": " Ghaziabad",
+        "experience":[
+            "Developed full-stack components using React.js for the front end and ",
+            " Hibernate with Spring Boot for the back end, creating a dynamic and efficient user interface."
+        ],
+        "imageSrc":"company/ducat.webp"
+        
+
+    },
+        
+    {
+        "id":3,
+          "role":"Digital Marketing - Intern",
+          "organization":"Netflix",
+          "startDate":"Apr,2021",
+          "endDate":"june 2022",
+          "location":"Noida, India",
+          "experience":[
+              "Managed social media accounts, creating engaging posts and monitoring user interactions.",
+             "collaborated with design team on graphic elements for digital campaigns such as logos, banners." 
+          ],
+          "imageSrc":"company/eduinq.png"
+          
+  
+    }
+]

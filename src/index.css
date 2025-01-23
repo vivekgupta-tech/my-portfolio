@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*<------------------------------------------portfolio----------------------------------------------------->*/
+    :root{
+        --box-shadow:5px 5px 10px 10px rgba(101,175,10,0.5);
+        --bg-color:rgb(40,47,97);
+    }
+    body{
+        background-color: rgb(11, 26,51);
+        color:white;
+    }
+    /*------------ Navbarsection--------------------------------------------------------*/
+    .container{
+        display: flex;
+        gap: 66vh;
+
+    }
+    .container .nav_items{
+        padding-top: 17px;
+        padding: 20px;
+        padding-right:17px;
+        padding-bottom:5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .container .nav_items:hover{
+        border-bottom:3px solid rgb(167, 231, 40)
+    }
+    a{
+        text-decoration: none;
+    }
+    /*-----------------------
+    
+    ------------ Home Section----------------------------------------------------------------- */
+ .containers{
+    height:80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-left:15%;
+    margin-right:8%;
+ } 
+ .containers .left{
+    background-color:var(--bg-color);
+    width:430px;
+    text-align: center;
+    padding:32px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    font-weight: bold;
+    font-size:larger;
+    box-shadow: var(--box-shadow);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}    
+.containers .left a{
+    margin-top:4%;
+}   
+ 
+ .containers .right .img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .containers .right .img img{
+    height: 270px;
+    width:270px;
+    border:4px solid yellow;
+    border-radius:100%;
+    animation-name: hero;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+}
+
+@keyframes hero{
+
+0%{
+ border-color:blue;
+ transform:translate(0,0px);
+ box-shadow: 10px 10px 100px 50px blue;
+ -webkit-transform:translate(0,0px);
+ -moz-transform:translate(0,0px);
+ -ms-transform:translate(0,0px);
+ -o-transform:translate(0,0px);
+}
+25%{
+ border-color:rgb(239,244,11);
+ transform:translate(0,10px);
+ box-shadow: 10px 10px 100px 50px rgb(239,244,11);
+ -webkit-transform:translate(0,10px);
+ -moz-transform:translate(0,10px);
+ -ms-transform:translate(0,10px);
+ -o-transform:translate(0,10px);
+}
+50%{
+ border-color:rgb(23, 164, 23);
+ transform:translate(0,0px);
+ box-shadow: 10px 10px 100px 50px rgb(44, 226, 44);
+ -webkit-transform:translate(0,0px);
+ -moz-transform:translate(0,0px);
+ -ms-transform:translate(0,0px);
+ -o-transform:translate(0,0px);
+}
+75%{
+ border-color:rgb(130 , 217, 160);
+ transform:translate(0,10px);
+ box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+ -webkit-transform:translate(0,10px);
+ -moz-transform:translate(0,10px);
+ -ms-transform:translate(0,10px);
+ -o-transform:translate(0,10px);
+}
+100%{
+ border-color: rgb(50, 55, 205);
+ transform: (0,-0px);
+ box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+}
+}
+/*------------------------------ Experience Section------------------------------------------------------------*/
+  .ex{
+    width: 800px;
+    margin-left: 28vh;
+    
+  }
+  .ex-items{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     background-color: var(--bg-color);
+     box-shadow: var(--box-shadow);
+     margin:20px;
+     padding:45px;
+     width:840px;
+     border-radius: 10px;
+     gap:70px;
+     text-align:start;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+}
+.title{
+    font-weight: bold;
+}
+.right h4{
+    margin-bottom: 5px;
+}
+.exp{
+    margin-top: 20px;
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+/*---------------------------Skills----------------------------------*/
+.skills{
+    width:900px;
+}
+.skills_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+.skills .items{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.skills .items .item
+{
+      border:2px solid yellow;
+      box-shadow: var(--box-shadow);
+      width: calc(33.3%);
+      background-color: black;
+      margin: 30px;
+      text-align: center;
+      padding:20px;
+      border-radius:10px;
+      -webkit-border-radius:10px;
+      -moz-border-radius:10px;
+      -ms-border-radius:10px;
+      -o-border-radius:10px;
+}
+.skills .items .item h3{
+    text-align: center;
+    padding-top: 8%;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+.skills .items .item img{
+    width:700px;
+    align-items: center;
+    border-radius: 50%;
+}
+/*--------------------------------------Project-----------------------------------------*/
+.projects{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    margin: 2%;
+}
+.container{
+    width:800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_img{
+    display: flex;
+    padding:3%;
+    justify-content: space-between;
+    gap:5%;
+    border: 2px solid greenyellow;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 5%;
+    background-color: var(--bg-color)   ;
+}
+.img-card{
+    border: 1px solid grey ;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+.card-body{
+    text-align: start;
+    border-radius: 10px;
+}
+.card-title{ 
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3%;
+    
+}
+.btn{
+     background-color:green;
+     color: floralwhite;
+     width: 46%;
+     border-radius:5px;
+     border: 2px solid yellow;
+     margin-top: 4%;
+     margin-right: 4%;
+     font-weight: 500;
+}
+
+/*-----------------------------------Contact Page---------------------------------*/
+
+.con{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    margin: 2%;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.contact-icon .items{
+    background-color: black;
+    margin:10px;
+    height:50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:1px solid yellow;
+}
+.contact-icon .items .icons{
+    font-size: 2rem;
+}
+.contact-icon .items:hover{
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
+
+
